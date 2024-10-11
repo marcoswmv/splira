@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ABD4692CB9A11F00D63E70 /* spliraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABD4682CB9A11F00D63E70 /* spliraApp.swift */; };
+		F7ABD46B2CB9A11F00D63E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABD46A2CB9A11F00D63E70 /* ContentView.swift */; };
+		F7ABD46D2CB9A12000D63E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ABD46C2CB9A12000D63E70 /* Assets.xcassets */; };
+		F7ABD4702CB9A12000D63E70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ABD46F2CB9A12000D63E70 /* Preview Assets.xcassets */; };
+		F7ABD47A2CB9A12000D63E70 /* spliraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABD4792CB9A12000D63E70 /* spliraTests.swift */; };
+		F7ABD4842CB9A12000D63E70 /* spliraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABD4832CB9A12000D63E70 /* spliraUITests.swift */; };
+		F7ABD4862CB9A12000D63E70 /* spliraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABD4852CB9A12000D63E70 /* spliraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7ABD4762CB9A12000D63E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ABD45D2CB9A11F00D63E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ABD4642CB9A11F00D63E70;
+			remoteInfo = splira;
+		};
+		F7ABD4802CB9A12000D63E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ABD45D2CB9A11F00D63E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ABD4642CB9A11F00D63E70;
+			remoteInfo = splira;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7ABD4652CB9A11F00D63E70 /* splira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ABD4682CB9A11F00D63E70 /* spliraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spliraApp.swift; sourceTree = "<group>"; };
+		F7ABD46A2CB9A11F00D63E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7ABD46C2CB9A12000D63E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ABD46F2CB9A12000D63E70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7ABD4752CB9A12000D63E70 /* spliraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spliraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ABD4792CB9A12000D63E70 /* spliraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spliraTests.swift; sourceTree = "<group>"; };
+		F7ABD47F2CB9A12000D63E70 /* spliraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spliraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ABD4832CB9A12000D63E70 /* spliraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spliraUITests.swift; sourceTree = "<group>"; };
+		F7ABD4852CB9A12000D63E70 /* spliraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spliraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ABD4622CB9A11F00D63E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD4722CB9A12000D63E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD47C2CB9A12000D63E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ABD45C2CB9A11F00D63E70 = {
+			isa = PBXGroup;
+			children = (
+				F7ABD4672CB9A11F00D63E70 /* splira */,
+				F7ABD4782CB9A12000D63E70 /* spliraTests */,
+				F7ABD4822CB9A12000D63E70 /* spliraUITests */,
+				F7ABD4662CB9A11F00D63E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ABD4662CB9A11F00D63E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABD4652CB9A11F00D63E70 /* splira.app */,
+				F7ABD4752CB9A12000D63E70 /* spliraTests.xctest */,
+				F7ABD47F2CB9A12000D63E70 /* spliraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ABD4672CB9A11F00D63E70 /* splira */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABD4682CB9A11F00D63E70 /* spliraApp.swift */,
+				F7ABD46A2CB9A11F00D63E70 /* ContentView.swift */,
+				F7ABD46C2CB9A12000D63E70 /* Assets.xcassets */,
+				F7ABD46E2CB9A12000D63E70 /* Preview Content */,
+			);
+			path = splira;
+			sourceTree = "<group>";
+		};
+		F7ABD46E2CB9A12000D63E70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABD46F2CB9A12000D63E70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7ABD4782CB9A12000D63E70 /* spliraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABD4792CB9A12000D63E70 /* spliraTests.swift */,
+			);
+			path = spliraTests;
+			sourceTree = "<group>";
+		};
+		F7ABD4822CB9A12000D63E70 /* spliraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABD4832CB9A12000D63E70 /* spliraUITests.swift */,
+				F7ABD4852CB9A12000D63E70 /* spliraUITestsLaunchTests.swift */,
+			);
+			path = spliraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ABD4642CB9A11F00D63E70 /* splira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ABD4892CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "splira" */;
+			buildPhases = (
+				F7ABD4612CB9A11F00D63E70 /* Sources */,
+				F7ABD4622CB9A11F00D63E70 /* Frameworks */,
+				F7ABD4632CB9A11F00D63E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = splira;
+			productName = splira;
+			productReference = F7ABD4652CB9A11F00D63E70 /* splira.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7ABD4742CB9A12000D63E70 /* spliraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ABD48C2CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "spliraTests" */;
+			buildPhases = (
+				F7ABD4712CB9A12000D63E70 /* Sources */,
+				F7ABD4722CB9A12000D63E70 /* Frameworks */,
+				F7ABD4732CB9A12000D63E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ABD4772CB9A12000D63E70 /* PBXTargetDependency */,
+			);
+			name = spliraTests;
+			productName = spliraTests;
+			productReference = F7ABD4752CB9A12000D63E70 /* spliraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7ABD47E2CB9A12000D63E70 /* spliraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ABD48F2CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "spliraUITests" */;
+			buildPhases = (
+				F7ABD47B2CB9A12000D63E70 /* Sources */,
+				F7ABD47C2CB9A12000D63E70 /* Frameworks */,
+				F7ABD47D2CB9A12000D63E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ABD4812CB9A12000D63E70 /* PBXTargetDependency */,
+			);
+			name = spliraUITests;
+			productName = spliraUITests;
+			productReference = F7ABD47F2CB9A12000D63E70 /* spliraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ABD45D2CB9A11F00D63E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F7ABD4642CB9A11F00D63E70 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F7ABD4742CB9A12000D63E70 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F7ABD4642CB9A11F00D63E70;
+					};
+					F7ABD47E2CB9A12000D63E70 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F7ABD4642CB9A11F00D63E70;
+					};
+				};
+			};
+			buildConfigurationList = F7ABD4602CB9A11F00D63E70 /* Build configuration list for PBXProject "splira" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ABD45C2CB9A11F00D63E70;
+			productRefGroup = F7ABD4662CB9A11F00D63E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ABD4642CB9A11F00D63E70 /* splira */,
+				F7ABD4742CB9A12000D63E70 /* spliraTests */,
+				F7ABD47E2CB9A12000D63E70 /* spliraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ABD4632CB9A11F00D63E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABD4702CB9A12000D63E70 /* Preview Assets.xcassets in Resources */,
+				F7ABD46D2CB9A12000D63E70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD4732CB9A12000D63E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD47D2CB9A12000D63E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ABD4612CB9A11F00D63E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABD46B2CB9A11F00D63E70 /* ContentView.swift in Sources */,
+				F7ABD4692CB9A11F00D63E70 /* spliraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD4712CB9A12000D63E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABD47A2CB9A12000D63E70 /* spliraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ABD47B2CB9A12000D63E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABD4842CB9A12000D63E70 /* spliraUITests.swift in Sources */,
+				F7ABD4862CB9A12000D63E70 /* spliraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7ABD4772CB9A12000D63E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ABD4642CB9A11F00D63E70 /* splira */;
+			targetProxy = F7ABD4762CB9A12000D63E70 /* PBXContainerItemProxy */;
+		};
+		F7ABD4812CB9A12000D63E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ABD4642CB9A11F00D63E70 /* splira */;
+			targetProxy = F7ABD4802CB9A12000D63E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7ABD4872CB9A12000D63E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7ABD4882CB9A12000D63E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ABD48A2CB9A12000D63E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"splira/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.splira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7ABD48B2CB9A12000D63E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"splira/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.splira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7ABD48D2CB9A12000D63E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.spliraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splira.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splira";
+			};
+			name = Debug;
+		};
+		F7ABD48E2CB9A12000D63E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.spliraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splira.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splira";
+			};
+			name = Release;
+		};
+		F7ABD4902CB9A12000D63E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.spliraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = splira;
+			};
+			name = Debug;
+		};
+		F7ABD4912CB9A12000D63E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4L92P5BF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwmv.spliraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = splira;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ABD4602CB9A11F00D63E70 /* Build configuration list for PBXProject "splira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABD4872CB9A12000D63E70 /* Debug */,
+				F7ABD4882CB9A12000D63E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ABD4892CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "splira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABD48A2CB9A12000D63E70 /* Debug */,
+				F7ABD48B2CB9A12000D63E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ABD48C2CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "spliraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABD48D2CB9A12000D63E70 /* Debug */,
+				F7ABD48E2CB9A12000D63E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ABD48F2CB9A12000D63E70 /* Build configuration list for PBXNativeTarget "spliraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABD4902CB9A12000D63E70 /* Debug */,
+				F7ABD4912CB9A12000D63E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ABD45D2CB9A11F00D63E70 /* Project object */;
+}
